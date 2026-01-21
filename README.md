@@ -1,10 +1,10 @@
-# 🛡️ Consent Flow Simulator
+#  Consent Flow Simulator
 *A Visual Privacy & Data Consent Simulator*
 
-## 🚀 Live Demo
-(https://privacy-consent-simulator-js.vercel.app/)
+##  Live Demo
+(https://privacy-consent-simulator-01.vercel.app/)
 
-## 📌 Overview
+## Overview
 Consent Flow Simulator is a browser-based educational tool that demonstrates how user consent decisions affect data collection on modern websites. Instead of performing real tracking, the project visually simulates how analytics and marketing systems activate or remain blocked based on user choices.
 
 The goal is to make privacy concepts transparent, interactive, and easy to understand.
@@ -12,7 +12,7 @@ The goal is to make privacy concepts transparent, interactive, and easy to under
 ---
 
 
-## 🧠 Key Features
+##  Key Features
 - Interactive consent toggles (Analytics & Marketing)
 - User input sliders for interaction level and session duration
 - Real-time data output simulation
