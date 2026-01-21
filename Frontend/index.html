@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <title>Digital Consent Simulator</title>
+
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon1.png">
+  <link rel="icon" type="image/png" href="./favicon1.png">
 </head>
+
 <body>
 
 <header>
@@ -33,18 +35,18 @@
       <span id="sessionValue">5</span>
     </label>
 
-    <h3>Consent</h3>
+    <h3>Consent Controls</h3>
 
     <label class="switch">
-      <input type="checkbox" id="analyticsToggle">
+      <input type="checkbox" id="statsToggle">
       <span class="slider"></span>
-      Analytics
+      Usage Statistics
     </label>
 
     <label class="switch">
-      <input type="checkbox" id="marketingToggle">
+      <input type="checkbox" id="personalizationToggle">
       <span class="slider"></span>
-      Marketing
+      Personalization
     </label>
   </section>
 
@@ -52,17 +54,17 @@
     <h2>Active Website Systems</h2>
 
     <div class="system core">
-       Core System (Always Active)
+      Core System (Always Active)
     </div>
 
-    <div class="system blocked" id="analyticsSys">
-       Analytics Engine
-      <div class="metric" id="analyticsMetric">Events: 0</div>
+    <div class="system blocked" id="statsSystem">
+      Statistics Engine
+      <div class="metric" id="statsMetric">Events: 0</div>
     </div>
 
-    <div class="system blocked" id="marketingSys">
-       Marketing Engine
-      <div class="metric" id="marketingMetric">Profiles: 0</div>
+    <div class="system blocked" id="personalizationSystem">
+      Personalization Engine
+      <div class="metric" id="personalizationMetric">Profiles: 0</div>
     </div>
   </section>
 
